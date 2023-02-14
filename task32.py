@@ -13,15 +13,16 @@ end_of_range = int(input("Введите конец диапазона: "))
 
 
 print(f"индексы элементов, значения которых принадлежат диапазону {range_start}:{end_of_range}: ")
-for i in range(1, len(list_1) - 1):
+for i in range(1, len(list_1)):
     if range_start <= list_1[i] <= end_of_range:
         list_4.append(list_1[i])
         print(i, end= "\t")
 print()
+print("Значения под этими индексами: ")
 
 
 
-for i in range(1, len(list_1) - 1):
+for i in range(1, len(list_1)):
     if range_start <= list_1[i] <= end_of_range:
         list_3.append(list_1[i])
         print(list_1[i], end= "\t")
