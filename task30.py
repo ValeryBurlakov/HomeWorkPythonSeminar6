@@ -4,14 +4,7 @@ numbers_of_digits = int(input("Введите количество элемен�
 
 list_1 = []
 
-# for i in range(numbers_of_digits):
-#     result = first_number + i * step_number
-#     list_1.append(result)
-# print(list_1)
-
-
-def progression(first_number, step_number, numbers_of_digits):
-    if numbers_of_digits == 0:
-        return 1
-    return list_1.append(first_number + step_number, numbers_of_digits - 1)
+for i in range(numbers_of_digits):
+    result = first_number + i * step_number
+    list_1.append(result)
 print(list_1)

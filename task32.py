@@ -1,5 +1,5 @@
 import random
-array_length = int(input("Введите длину массива: "))
+# array_length = int(input("Введите длину массива: "))
 list_1 = [-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
 # for i in range(array_length):
 #     # list_1.append(int(input("вводите элементы массива: ")))
